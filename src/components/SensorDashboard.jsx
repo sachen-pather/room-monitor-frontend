@@ -171,7 +171,7 @@ const SensorDashboard = () => {
   return (
     <div className="dashboard-container">
       <header className="dashboard-header">
-        <h1>ESP32 Sensor Dashboard</h1>
+        <h1>Room Monitoring Dashboard</h1>
         <p className="dashboard-subtitle">
           Real-time monitoring of environmental conditions
         </p>
