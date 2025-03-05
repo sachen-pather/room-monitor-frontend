@@ -24,7 +24,9 @@ const SensorDashboard = () => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch("http://192.168.0.101:5056/api/sensor");
+        const response = await fetch(
+          "https://esp32-room-sensor.azurewebsites.net/api/sensor"
+        );
 
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
